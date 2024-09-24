@@ -258,12 +258,6 @@ body.active {
   margin-bottom: 30px;
 }
 
-.section-title2 {
-  max-width: 350px;
-  margin-bottom: 30px;
-  white-space: nowrap;
-}
-
 .section-text {
   color: var(--color-secondary);
   line-height: 1.8;
