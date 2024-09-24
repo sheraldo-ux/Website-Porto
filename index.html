@@ -96,7 +96,11 @@
         </nav>
       </div>
     </header>
-
+    <script>
+      window.onload = function () {
+        window.scrollTo(0, 0);
+      };
+    </script>
     <main>
       <article class="container">
         <section class="about" id="about">
@@ -111,18 +115,18 @@
           <div class="about-content section-content">
             <p class="section-subtitle">About me</p>
 
-            <h2 class="h3 section-title">
+            <h2 class="h3 section-title2">
               I'm Sheraldo Halim <br />
-              -------------------- <br />
+              ----------------------------- <br />
               A Student & Full Stack Developer
             </h2>
 
-            <p class="section-text">
-              I am a Full Stack Developer and I am currently a student in
-              Indonesia and I am passionate about creating software solutions
-              and iI am always looking for new challanges. If you have a project
-              that you would like to work on, feel free to contact.
-            </p>
+              <p class="section-text">
+                I am a Full Stack Developer and I am currently a student in
+                Indonesia and I am passionate about creating software solutions
+                and iI am always looking for new challanges. If you have a
+                project that you would like to work on, feel free to contact.
+              </p>
 
             <div class="btn-group">
               <a href="#contact">
@@ -583,7 +587,7 @@
             </h2>
 
             <p class="section-text">
-              Get in touch and let me know how i can help. Fill out the form and
+              Get in touch and let me know how i can help,
               i’ll be in touch as soon as possible.
             </p>
 
@@ -686,77 +690,6 @@
               </li>
             </ul>
           </div>
-
-          <form action="" class="contact-form">
-            <div class="form-wrapper">
-              <label for="name" class="form-label">Name</label>
-
-              <div class="input-wrapper">
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  required
-                  placeholder="e.g John Doe"
-                  class="input-field"
-                />
-
-                <ion-icon name="person-circle"></ion-icon>
-              </div>
-            </div>
-
-            <div class="form-wrapper">
-              <label for="email" class="form-label">Email</label>
-
-              <div class="input-wrapper">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  required
-                  placeholder="e.g johndoe@mail.com"
-                  class="input-field"
-                />
-
-                <ion-icon name="mail"></ion-icon>
-              </div>
-            </div>
-
-            <div class="form-wrapper">
-              <label for="phone" class="form-label">Phone</label>
-
-              <div class="input-wrapper">
-                <input
-                  type="tel"
-                  name="phone"
-                  id="phone"
-                  required
-                  placeholder="Phone Number"
-                  class="input-field"
-                />
-
-                <ion-icon name="call"></ion-icon>
-              </div>
-            </div>
-
-            <div class="form-wrapper">
-              <label for="message" class="form-label">Message</label>
-
-              <div class="input-wrapper">
-                <textarea
-                  name="message"
-                  id="message"
-                  required
-                  placeholder="Write message..."
-                  class="input-field"
-                ></textarea>
-
-                <ion-icon name="chatbubbles"></ion-icon>
-              </div>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Send</button>
-          </form>
         </section>
       </article>
     </main>
