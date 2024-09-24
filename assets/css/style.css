@@ -505,7 +505,6 @@ body.active {
   width: 350%;
   height: auto;
   object-fit: cover;
-  margin-left: -495px;
 }
 
 .about .btn {
@@ -915,6 +914,12 @@ textarea.input-field {
   }
 }
 
+.about-banner img {
+  width: 250%;
+  margin-left: -200px;
+  margin-top: 100px;
+}
+
 /**
  * responsive for larger than 768px screen
  */
@@ -957,6 +962,11 @@ textarea.input-field {
 
   .about .btn-secondary {
     margin-bottom: 0;
+  }
+
+  .about-banner img {
+    width: 300%;
+    margin-left: -700px;
   }
 
   /**
@@ -1083,6 +1093,10 @@ textarea.input-field {
   .about-banner {
     margin-bottom: 0;
   }
+  
+  .about-banner img {
+    margin-left: -380px;
+  }
 
   /**
    * SKILLS
@@ -1193,6 +1207,6 @@ textarea.input-field {
 
   .about-banner {
     max-width: 450px;
-    margin-left: -250px;
+    margin-left: 80px;
   }
 }
