@@ -339,26 +339,24 @@ body.active {
   margin-left: 0; /* Prevent extra space before the dot */
 }
 
-
 .navbar-actions {
   display: flex;
   align-items: center;
   gap: 16px;
   margin-left: auto;
-  width: auto; 
+  width: auto;
 }
 
 .navbar-actions select {
   color: var(--color-primary);
-  width: auto; 
-  padding: 4px; 
+  width: auto;
+  padding: 4px;
 }
 
 .navbar-actions option {
   background: var(--bg-primary);
   color: var(--color-primary);
 }
-
 
 .theme-btn {
   padding: 4px;
@@ -518,18 +516,17 @@ main {
 .hero-title {
   text-align: center;
   margin-bottom: 30px;
-  font-size: 2.2em; 
-  line-height: 1.3; 
+  font-size: 2.2em;
+  line-height: 1.3;
   letter-spacing: 0.5px;
   font-weight: 600;
-  max-width: 100%; 
+  max-width: 100%;
 }
 
 .hero-content {
-  max-width: 600px; 
+  max-width: 600px;
   text-align: center;
 }
-
 
 .hero .btn-primary {
   margin-inline: auto;
@@ -611,10 +608,9 @@ main {
 .about-banner img {
   width: 400%;
   height: auto;
-  object-fit: cover; 
+  object-fit: cover;
   margin-left: -600px;
 }
-
 
 .about .btn {
   max-width: unset;
